@@ -1,3 +1,4 @@
 import excludedEvent from "./excludedEvent";
+import animate from "./animate";
 
-export default { excludedEvent };
+export { excludedEvent, animate };
