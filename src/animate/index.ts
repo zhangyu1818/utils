@@ -184,4 +184,11 @@ const animate = (options: Options) =>
     });
   });
 
+export const stop = (element: ElementsType) => {
+  const nodes = getElements(element);
+  rAF.all.forEach(obj => {
+    if (~nodes.indexOf(obj.element)) rAF.all.delete(obj);
+  });
+};
+
 export default animate;
