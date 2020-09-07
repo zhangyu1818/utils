@@ -1,4 +1,4 @@
-function excludedEvent<T extends any, K extends HTMLElement = HTMLDivElement>(
+function excludedEvent<T extends Event, K extends HTMLElement = HTMLDivElement>(
   fn: (e: T) => void,
   element: K | string
 ) {
