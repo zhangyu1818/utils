@@ -8,7 +8,8 @@ const setStyles = <E extends HTMLElement>(
   const ele = getElement(element);
   if (ele) {
     Object.entries(style).forEach(([key, value]) => {
-      if (value) ele.style.setProperty(key, value as any); // todo
+      // todo
+      (ele.style as any)[key] = value;
     });
   }
 };
