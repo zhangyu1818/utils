@@ -15,5 +15,8 @@
   },
   "dependencies": {
     "yuutils": "^0.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.51"
   }
 }
