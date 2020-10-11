@@ -13,7 +13,7 @@
   "peerDependencies": {
     "react": "^16.8.6"
   },
-  "devDependencies": {
-    "@types/react": "^16.9.51"
+  "dependencies": {
+    "yuutils": "^0.0.0"
   }
 }

@@ -4,5 +4,6 @@
       "registry": "https://registry.npmjs.org/"
     }
   },
+  "npmClient": "yarn",
   "version": "independent"
 }

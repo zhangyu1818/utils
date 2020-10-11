@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "father-build"
+    "bootstrap": "lerna bootstrap",
+    "build": "father-build",
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "@umijs/fabric": "^2.2.2",
