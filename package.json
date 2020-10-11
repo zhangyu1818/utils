@@ -8,6 +8,7 @@
   "devDependencies": {
     "@umijs/fabric": "^2.2.2",
     "father-build": "^1.18.4",
+    "lerna": "^3.22.1",
     "prettier": "^2.1.2"
   }
 }
