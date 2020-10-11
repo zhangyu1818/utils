@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import eventListener, { ListenerType } from 'zyutils/es/event-listener';
+import eventListener, { ListenerType } from 'yuutils/es/event-listener';
 
 function useEventListener<T extends keyof WindowEventMap>(
   target: Window,
