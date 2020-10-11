@@ -5,7 +5,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "father-build",
-    "publish": "lerna publish"
+    "publish": "yarn run build && lerna publish"
   },
   "devDependencies": {
     "@umijs/fabric": "^2.2.2",
