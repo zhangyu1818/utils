@@ -1,9 +1,11 @@
 export default {
-  cjs: 'babel',
-  esm: { type: 'babel', importLibToEs: true },
+  pkgs:[
+    'utils',
+    'hooks'
+  ],
+  esm: 'babel',
   preCommit: {
     eslint: true,
     prettier: true,
   },
-  runtimeHelpers: true,
 };

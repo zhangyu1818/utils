@@ -1,4 +1,4 @@
-import { ElementType } from '../dom/interface';
+import { ElementType } from './dom/interface';
 
 const getElement = <E extends HTMLElement>(element: ElementType<E>) => {
   if (typeof element === 'string') {

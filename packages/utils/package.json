@@ -1,0 +1,14 @@
+{
+  "name": "zyutils",
+  "version": "0.0.0-alpha.1",
+  "description": "utils library",
+  "author": {
+    "email": "723156735@qq.com",
+    "name": "zhangyu1818"
+  },
+  "files": [
+    "es"
+  ],
+  "repository": "https://github.com/zhangyu1818/utils.git",
+  "license": "MIT"
+}

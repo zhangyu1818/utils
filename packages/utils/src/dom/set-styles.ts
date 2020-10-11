@@ -1,4 +1,4 @@
-import getElement from '../utils/get-element';
+import getElement from '../get-element';
 import { ElementType } from './interface';
 
 const setStyles = <E extends HTMLElement>(

@@ -1,6 +1,6 @@
 import noop from './noop';
 
-type ListenerType<T> = (...args: [T, ...any[]]) => void;
+export type ListenerType<T> = (...args: [T, ...any[]]) => void;
 
 const eventListener = <T = any>(
   target: any,
