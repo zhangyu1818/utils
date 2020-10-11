@@ -5,6 +5,8 @@
     "email": "723156735@qq.com",
     "name": "zhangyu1818"
   },
+  "main": "es/index.js",
+  "types": "es/index.d.ts",
   "files": [
     "es"
   ],
