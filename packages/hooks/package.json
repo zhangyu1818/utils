@@ -1,6 +1,6 @@
 {
   "name": "yuhooks",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha.1",
   "author": {
     "email": "723156735@qq.com",
     "name": "zhangyu1818"
@@ -14,7 +14,7 @@
     "react": "^16.8.6"
   },
   "dependencies": {
-    "yuutils": "^0.0.0"
+    "yuutils": "^0.0.0-alpha.1"
   },
   "devDependencies": {
     "@types/react": "^16.9.51"
