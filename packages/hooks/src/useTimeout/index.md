@@ -7,7 +7,7 @@ group:
 
 # useTimeout
 
-处理 `setInterval` 函数的 Hook，在`unmount`时也会自动清除。
+处理 `setTimeout` 函数的 Hook，在`unmount`时也会自动清除。
 
 ## 基础使用
 
