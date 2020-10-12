@@ -3,14 +3,16 @@
   "private": true,
   "scripts": {
     "start": "dumi dev",
-    "build": "father-build",
+    "build": "node ./scripts/export-hooks.js && father-build",
     "bootstrap": "lerna bootstrap",
     "publish": "yarn run build && lerna publish"
   },
   "devDependencies": {
     "@umijs/fabric": "^2.2.2",
+    "chalk": "^4.1.0",
     "dumi": "^1.0.34",
     "father-build": "^1.18.4",
+    "glob": "^7.1.6",
     "lerna": "^3.22.1",
     "prettier": "^2.1.2"
   }
