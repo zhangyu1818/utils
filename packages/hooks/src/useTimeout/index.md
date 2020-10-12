@@ -9,7 +9,7 @@ group:
 
 处理 `setInterval` 函数的 Hook，在`unmount`时也会自动清除。
 
-## 基本使用
+## 基础使用
 
 <code src="./demos/demo1.tsx"/>
 

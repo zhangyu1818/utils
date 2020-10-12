@@ -9,7 +9,7 @@ group:
 
 媒体查询的Hook，当媒体查询的值发生变化时Hook也会重新刷新。
 
-## 基本使用
+## 基础使用
 
 <code src="./demos/demo1.tsx"/>
 

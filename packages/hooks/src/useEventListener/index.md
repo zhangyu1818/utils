@@ -9,7 +9,7 @@ group:
 
 绑定事件的 Hook，在`unmount`时会自动解绑事件。
 
-## 基本使用
+## 基础使用
 
 <code src="./demos/demo1.tsx" />
 
