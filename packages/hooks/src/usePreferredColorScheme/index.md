@@ -18,6 +18,6 @@ group:
 ## API
 
 ```javascript
-usePreferredColorScheme() => "dark" | "light" | "no-preference"
+usePreferredColorScheme() => "dark" | "light" | "no-preference";
 ```
 
