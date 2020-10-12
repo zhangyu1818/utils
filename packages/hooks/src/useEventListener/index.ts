@@ -26,7 +26,7 @@ function useEventListener<T = any>(
   listener: ListenerType<T>,
   keys?: [string, string],
 ) {
-  React.useEffect(() => eventListener(target, type, listener, keys));
+  React.useEffect(() => eventListener(target, type, listener, keys), []);
 }
 
 export default useEventListener;
