@@ -1,7 +1,7 @@
-import { EffectCallback, useEffect } from 'react';
+import React from 'react';
 
-const useMount = (effect: EffectCallback) => {
-  useEffect(effect, []);
+const useMount = (effect: React.EffectCallback) => {
+  React.useEffect(effect, []);
 };
 
 export default useMount;
