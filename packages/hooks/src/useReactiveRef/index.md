@@ -13,7 +13,7 @@ group:
 
 <code src="./demos/demo1.tsx"/>
 
-值得注意的是，`useReactiveRef`返回的值仅仅是浅响应式的，比如`value.current.count++`这样是无效的。
+需要注意的是，`useReactiveRef`返回的值仅仅是浅响应式的，比如`value.current.count++`这样是无效的。
 
 ## API
 
