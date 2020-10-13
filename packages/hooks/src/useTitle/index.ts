@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 function useTitle(title?: string): [string, (title: string) => void];
 function useTitle(resetOnUnmount?: boolean): [string, (title: string) => void];

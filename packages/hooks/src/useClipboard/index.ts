@@ -1,4 +1,5 @@
-import React from 'react';
+import * as React from 'react';
+
 import useEventListener from '../useEventListener';
 
 type UseClipboard = () => {

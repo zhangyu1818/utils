@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import eventListener, { ListenerType } from 'yuutils/es/event-listener';
 
