@@ -18,7 +18,6 @@ function useEventListener<T = any>(
   target: any,
   type: string,
   listener: ListenerType<T>,
-  options?: unknown,
   keys?: [string, string],
 ): void;
 function useEventListener<T = any>(
@@ -26,9 +25,16 @@ function useEventListener<T = any>(
   type: string,
   listener: ListenerType<T>,
   options?: unknown,
+): void;
+function useEventListener<T = any>(
+  target: any,
+  type: string,
+  listener: ListenerType<T>,
+  options?: unknown,
   keys?: [string, string],
-) {
-  React.useEffect(() => eventListener(target, type, listener, keys), []);
+): void;
+function useEventListener<T = any>(target: any, type: string, listener: ListenerType<T>, ...args) {
+  React.useEffect(() => eventListener(target, type, listener, ...args), []);
 }
 
 export default useEventListener;
