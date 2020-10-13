@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import noop from 'yuutils/es/noop';
 import eventListener from 'yuutils/es/event-listener';

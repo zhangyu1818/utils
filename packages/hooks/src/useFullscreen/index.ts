@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 
 import useEventListener from '../useEventListener';
 import isRef from '../utils/isRef';
