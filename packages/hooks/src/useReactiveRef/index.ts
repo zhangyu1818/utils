@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-import useRefresh from '../useRefresh';
+import useForceUpdate from '../useForceUpdate';
 
 const useReactiveRef = <T>(value: T) => {
   const ref = React.useRef(value);
-  const refresh = useRefresh();
+  const forceUpdate = useForceUpdate();
 
   const memoizedState = React.useMemo(() => {
     const state = {};
@@ -14,7 +14,7 @@ const useReactiveRef = <T>(value: T) => {
       },
       set(value: T) {
         ref.current = value;
-        refresh();
+        forceUpdate();
       },
     });
     return state as React.MutableRefObject<T>;

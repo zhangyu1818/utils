@@ -1,10 +1,10 @@
 import * as React from 'react';
 
-const useRefresh = () => {
+const useForceUpdate = () => {
   const [, setState] = React.useState({});
   return () => {
     setState({});
   };
 };
 
-export default useRefresh;
+export default useForceUpdate;
