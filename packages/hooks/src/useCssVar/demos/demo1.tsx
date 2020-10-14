@@ -7,7 +7,6 @@ export default () => {
   const color = useCssVar('--color', ref);
 
   return (
-    // @ts-ignore
     <div ref={ref}>
       <input
         type="text"
