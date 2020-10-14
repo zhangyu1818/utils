@@ -33,7 +33,14 @@ const createStorageHook = (storage: Storage) => <T>(
     }
   });
 
-  return [data, setData];
+  const updateStorage: React.Dispatch<React.SetStateAction<T | null>> = (value) => {
+    if (value === null) {
+      storage.removeItem(key);
+    }
+    setData(value);
+  };
+
+  return [data, updateStorage];
 };
 
 export default createStorageHook;

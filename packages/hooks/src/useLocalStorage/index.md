@@ -13,6 +13,8 @@ group:
 
 <code src="./demos/demo1.tsx" />
 
+如果赋值为`null`，则会从`localStorage`移除。
+
 ## API
 
 ```javascript
