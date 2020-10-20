@@ -3,6 +3,7 @@ const config = {
   rules: {
     'no-shadow': 'off',
     'no-param-reassign': 'off',
+    'import/no-extraneous-dependencies': 'off',
   },
 };
 
