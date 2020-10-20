@@ -5,7 +5,9 @@
     "start": "dumi dev",
     "build": "node ./scripts/export-hooks.js && father-build",
     "bootstrap": "lerna bootstrap",
-    "publish": "yarn run build && lerna publish"
+    "publish": "yarn run build && lerna publish",
+    "docs:buid": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist"
   },
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.6",
@@ -14,6 +16,7 @@
     "chalk": "^4.1.0",
     "dumi": "^1.0.34",
     "father-build": "^1.18.4",
+    "gh-pages": "^3.1.0",
     "glob": "^7.1.6",
     "lerna": "^3.22.1",
     "prettier": "^2.1.2"
