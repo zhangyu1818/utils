@@ -1,10 +1,11 @@
 import { ElementType } from './dom/interface';
+import devWarning from './dev-warning';
 
 const getElement = <E extends HTMLElement>(element: ElementType<E>) => {
   if (typeof element === 'string') {
     const ele = document.querySelector<E>(element);
     if (!ele) {
-      console.warn('element is invalid');
+      devWarning('element is invalid');
       return null;
     }
     element = ele;
