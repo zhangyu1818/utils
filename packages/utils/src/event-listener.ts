@@ -36,7 +36,7 @@ function eventListener<T = any>(
 );
 function eventListener<T = any>(target: any, type: string, listener: ListenerType<T>, ...args) {
   if (!target) {
-    devWarning(true, 'target is not correctly');
+    devWarning('target is not correctly');
     return noop;
   }
 
@@ -60,7 +60,7 @@ function eventListener<T = any>(target: any, type: string, listener: ListenerTyp
     } else if ('addListener' in target && 'removeListener' in target) {
       keys = ['addListener', 'removeListener'];
     } else {
-      devWarning(true, 'eventListener has not correct keys, please pass keys');
+      devWarning('eventListener has not correct keys, please pass keys');
       return noop;
     }
   }
