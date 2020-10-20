@@ -1,5 +1,6 @@
 export { default as useClipboard } from './useClipboard';
 export { default as useCssVar } from './useCssVar';
+export { default as useDebounce } from './useDebounce';
 export { default as useDocumentVisibility } from './useDocumentVisibility';
 export { default as useEventListener } from './useEventListener';
 export { default as useForceUpdate } from './useForceUpdate';
@@ -17,6 +18,7 @@ export { default as useReactiveRef } from './useReactiveRef';
 export { default as useSessionStorage } from './useSessionStorage';
 export { default as useShare } from './useShare';
 export { default as useStartTyping } from './useStartTyping';
+export { default as useThrottle } from './useThrottle';
 export { default as useTimeout } from './useTimeout';
 export { default as useTitle } from './useTitle';
 export { default as useUpdate } from './useUpdate';
